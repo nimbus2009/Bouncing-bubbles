@@ -6,6 +6,7 @@ function setup() {
 
   des=createButton("Destroy");
   des.position(20,100);
+  des.mousePressed(destroyB());
 }
 
 function draw() {
@@ -36,4 +37,8 @@ function keyPressed() {
 function mousePressed() {
   var b=new Ball(mouseX,mouseY,20);
   balls.push(b);
+}
+
+function destroyB() {
+  balls.pop();
 }
