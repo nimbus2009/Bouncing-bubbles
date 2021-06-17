@@ -16,6 +16,8 @@ function draw() {
     balls[x].display();
   }
 
+  console.log("HIYA!")
+
   text("Click anywhere on the \nscreen to create bubbles!",20,20); 
   text("Press any key on the \nkeyboard to destroy bubbles!",20,70);
 
