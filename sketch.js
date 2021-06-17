@@ -1,7 +1,11 @@
 var balls=[];
+var des;
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
+
+  des=createButton("Destroy");
+  des.position(20,100);
 }
 
 function draw() {
