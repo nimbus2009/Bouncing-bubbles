@@ -26,8 +26,6 @@ function draw() {
     touches=[];
   }
 
-  console.log(touches[0]);
-
 }
 
 function keyPressed() {
@@ -43,4 +41,5 @@ function destroyB() {
   balls.pop();
   balls.pop();
   console.log("great!");
+  console.log(balls);
 }
