@@ -25,6 +25,12 @@ function draw() {
 
     touches=[];
   }
+  if(touches.length>0&&(des.position.x-50<touches[0]>des.position.x+50)&&(des.position.y-50<touches[0]>des.position.y+50)) {
+    var b=new Ball(touches[0],touches[1],20);
+    balls.push(b);
+
+    touches=[];
+  }
 
 }
 
