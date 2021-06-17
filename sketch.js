@@ -6,7 +6,7 @@ function setup() {
 
   des=createButton("Destroy");
   des.position(20,100);
-  des.mousePressed(destroyB());
+  des.mousePressed(destroyB);
 }
 
 function draw() {
