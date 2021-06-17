@@ -39,8 +39,10 @@ function keyPressed() {
 }
 
 function mousePressed() {
-  var b=new Ball(mouseX,mouseY,20);
-  balls.push(b);
+  if(mouseX>des.position.x+100) {
+    var b=new Ball(mouseX,mouseY,20);
+    balls.push(b);
+  }
 }
 
 function destroyB() {
