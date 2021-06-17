@@ -41,5 +41,5 @@ function mousePressed() {
 
 function destroyB() {
   balls.pop();
-  console.log(balls);
+  console.log("great!");
 }
